@@ -1,2 +1,3 @@
-# fnf_custom_songs
-Just some custom songs applied for friends
+# FRIDAY NIGHT FUNKIN - CUSTOM SONG EDITION
+This is a mod for Friday Night Funkin' made using the mod on Gamebanana (https://gamebanana.com/gamefiles/14264)
+
