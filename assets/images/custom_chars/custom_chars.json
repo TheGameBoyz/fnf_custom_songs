@@ -1,0 +1,64 @@
+{
+  "dream": {
+    "like": "pico",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "bf-apple": {
+    "like": "bf",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "joker": {
+    "like": "bf",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "moma": {
+    "like": "dad",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "papyrus": {
+    "like": "dad",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "rick": {
+    "like": "dad",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "wilbur": {
+    "like": "spooky",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "xeno": {
+    "like": "dad",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "gf-apple": {
+    "like": "gf",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "sans": {
+    "like": "bf",
+    "icons": [0,1],
+    "uniqueicons": true
+  },
+  "asriel": {
+    "like": "gf",
+    "icons": [0,1],
+    "uniqueicons": false
+  },
+  "kris": {
+  "like": "bf",
+  "icons": [0,1],
+  "uniqueicons": false
+  }
+}
+
+
