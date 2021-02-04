@@ -4,6 +4,8 @@ philly
 limo
 mall
 mallEvil
+school
+schoolEvil
 template
 dream
 bad-apple
