@@ -7,6 +7,3 @@ mallEvil
 school
 schoolEvil
 template
-dream
-bad-apple
-papyrus-room
