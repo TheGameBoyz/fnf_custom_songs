@@ -6,9 +6,7 @@
     ["Week 3 press", "Pico", "Philly", "Blammed"],
     ["Week 4 press", "Satin-Panties", "High", "Milf"],
     ["week 5", "Cocoa", "Eggnog", "Winter-Horrorland"],
-    ["Week 6", "Senpai", "Roses", "Thorns", "Amalgam"],
-	["Week 6", "Amalgam", "Down-To-The-Bone", "Rude-Buster", "Two-Trucks"],
-	["Week 6", "dream1", "dream2", "dream3"]
+    ["Week 6", "Senpai", "Roses", "Thorns", "Amalgam"]]
   ],
   "characters": [
     ["dad", "bf", "gf"],
@@ -17,8 +15,6 @@
 		["pico", "bf", "gf"],
 		["mom", "bf", "gf"],
 		["parents-christmas", "bf", "gf"],
-    ["senpai", "bf", "gf"],
-	["69", "bf", "gf"],
-	["dream", "bf", "gf"]
+    ["senpai", "bf", "gf"]
   ]
 }
