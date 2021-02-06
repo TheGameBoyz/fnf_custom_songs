@@ -1,7 +1,7 @@
 {
   "animation": {
     "idle": {
-      "name": "Mod Idle",
+      "name": "Mom Idle",
       "loop": false
     },
     "singUP": {
@@ -29,10 +29,7 @@
     "singDOWN": [20, -160]
   },
   "flipx": false,
-  "camOffsetX": 0,
-  "camOffsetY": 0,
-  "enemyOffsetX": 0,
-  "enemyOffsetY": 0,
   "like": "mom",
+  "followCam": [150,0],
   "playAnim": "idle"
 }

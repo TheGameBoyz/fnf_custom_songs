@@ -15,25 +15,21 @@
     "singLEFT": {
       "name": "Pico NOTE LEFT0",
       "loop": false,
-      "flipplayer2": true,
       "flippedname": "Pico Note Right0"
     },
     "singRIGHT": {
       "name": "BF NOTE RIGHT0",
       "loop": false,
-      "flipplayer2": true,
       "flippedname": "Pico NOTE LEFT0"
     },
     "singLEFTmiss": {
       "name": "Pico NOTE LEFT miss",
       "loop": false,
-      "flipplayer2": true,
       "flippedname": "Pico Note Right Miss"
     },
     "singRIGHTmiss": {
       "name": "Pico Note Right Miss",
       "loop": false,
-      "flipplayer2": true,
       "flippedname": "Pico NOTE LEFT miss"
     },
     "singUPmiss": {
@@ -57,10 +53,8 @@
     "singDOWNmiss": [210, -28]
   },
   "flipx": true,
-  "camOffsetX": 600,
-  "camOffsetY": 0,
-  "enemyOffsetX": 0,
-  "enemyOffsetY": 300,
+  "camOffset": [600,0],
+  "enemyOffset": [0,300],
   "like": "pico",
   "playAnim": "idle"
 }

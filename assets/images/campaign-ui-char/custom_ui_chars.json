@@ -30,14 +30,5 @@
   "senpai":{
     "like": "senpai",
     "defaultGraphics": true
-  },
-  
-  "69":{
-    "like": "dad",
-    "defaultGraphics": false
-  },
-  "dream":{
-  "like": "dad",
-  "defaultGraphics": false
   }
 }

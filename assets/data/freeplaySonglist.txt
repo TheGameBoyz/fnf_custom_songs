@@ -53,5 +53,8 @@ amalgam
 subway-sexist
 super-sonic-racing
 kitchen-without-gun
-subway-sexist
->>>>>>> 2fc26e79b191bf1e051db92836ec17a3be0f9bc8
+yes-im-changing
+ttfaf
+loonboon
+still-alive
+turn-the-lights-off
