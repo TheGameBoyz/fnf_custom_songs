@@ -126,6 +126,11 @@
   "like": "bf",
   "icons": [0,1],
   "uniqueicons": false
+  },
+  "monika": {
+  "like": "senpai",
+  "icons": [0,1],
+  "uniqueicons": false
   }
 }
 
