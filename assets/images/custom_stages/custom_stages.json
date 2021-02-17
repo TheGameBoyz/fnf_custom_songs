@@ -5,5 +5,12 @@
   "templateSpooky": "spooky",
   "templateMall": "mall",
   "templateEvilMall": "mallEvil",
-  "templateSchool": "school"
+  "dream": "stage",
+  "papyrus-room": "stage",
+  "bad-apple": "stage",
+  "mementos": "stage",
+  "portal": "stage",
+  "fnaf2": "spooky",
+  "pnf": "stage",
+  "terraria": "stage"
 }

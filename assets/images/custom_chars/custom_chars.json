@@ -131,8 +131,10 @@
   "like": "senpai",
   "icons": [0,1],
   "uniqueicons": false
-  }
+  },
+  "jtgc": {
+  "like": "bf",
+  "icons": [0,1],
+  "uniqueicons": true
 }
-
-
-
+}

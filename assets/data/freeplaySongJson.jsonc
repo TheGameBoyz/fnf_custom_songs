@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Base Game",
+    "songs": [
+      // we use tjson so we can do comments and do some incorrect things
+      // the reason we use tjson is because json is hard
+      // The category screen won't show up unless there are more than 1 categories
+      "Tutorial",
+      "Bopeebo",
+      "Fresh",
+      "Dadbattle",
+      "Spookeez",
+      "South",
+      "Monster",
+      "Pico",
+      "Philly",
+      "Blammed",
+      "Satin-Panties",
+      "High",
+      "Milf",
+      "Cocoa",
+      "Eggnog",
+      "Winter-Horrorland",
+      "Senpai",
+      "Roses",
+      "Thorns"
+    ]
+  },
+  // trailing commas don't matter with tjson
+  // visual studio code is just pissy
+
+
+
+//Start MCYT Pack
+   {
+    "name": "MCYT Pack",
+    "songs": [
+    "Dream1",
+    "Dream2",
+	"Dream3",
+	"i-see-a-dreamer",
+	"your-new-boyfriend"
+   ]
+   },
+   //End MCYT Pack
+   
+   
+   
+   //Start Meme Songs
+   {
+    "name": "Meme Songs",
+    "songs": [
+    "two-trucks",
+    "doin-yo-mom",
+	"baka-mitai",
+	"flamingo-x-fresh",
+	"what-is-love",
+	"thanos-beatbox",
+	"scatman-milf",
+	"AmongUs-Fresh",
+	"subway-sexist",
+	"kitchen-without-gun",
+	"south-gambino",
+	"eeeaaaooo",
+   ]
+   },
+   //End Meme Songs
+   
+   
+   
+   //Start Undertale Deltarune
+   {
+    "name": "Undertale / Deltarune",
+    "songs": [
+    "down-to-the-bone",
+    "rude-buster",
+	"THE-WORLD-REVOLVING",
+	"lancer",
+	"lancer-battle",
+	"amalgam",
+	"megalo-strikeback",
+   ]
+   },
+   //End Undertale Deltarune
+   
+   
+   
+   //Actual Songs
+   {
+    "name": "Actual Songs",
+    "songs": [
+    "Blinding-Lights",
+    "Uptown-Funk",
+	"turn-the-lights-off",
+	"yes-im-changing",
+	"hbfs",
+	"stupid-horse",
+	"bad-apple",
+	"butterfly-remix",
+	"ttfaf",
+   ]
+   },
+   //End of Actual Songs category   
+   
+   
+   //Songs from Diff. Games
+   {
+    "name": "Songs from different games",
+    "songs": [
+    "life-will-change",	
+	"fallen-kingdom",
+	"revenge",
+	"car-rap",
+	"dk-rap",
+	"SUPER-SONIC-Racing",
+	"loonboon",
+	"still-alive",
+	"underground-terraria",
+	"ddlc",
+	"touhou1",
+	"touhou2",
+	"touhou3",
+	"bad-apple",
+	
+
+	
+   ]
+   },
+   //End of Category Diff Games
+   
+   
+   //Cartoon Songs
+   {
+    "name": "Songs from Cartoons",
+    "songs": [
+    "agent-p",
+
+	
+   ]
+   },
+   //End Category Cartoons
+   
+   
+   
+]
