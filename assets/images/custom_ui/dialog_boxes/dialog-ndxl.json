@@ -1,0 +1,12 @@
+{
+  "senpaiColor": "0xFFFFFFFF",
+  "senpaiVisible": true,
+  "textColor": "0xFF02FD1B",
+  // starting with 00 makes it transparent
+  "dropColor": "0xFF22952E",
+  "like": "senpai",
+  "isPixel": false,
+  "sided": false,
+  "font": "hex.ttf",
+  "portraitOffset": [0, 20]
+}

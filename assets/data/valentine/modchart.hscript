@@ -1,0 +1,47 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+}
+
+function update(elapsed)
+{
+if (curStep >= 64) 
+   dad.altAnim = '-alt';    
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+    FlxG.camera.shake(0.02, 0.15);
+    boyfriend.playAnim('scared');
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

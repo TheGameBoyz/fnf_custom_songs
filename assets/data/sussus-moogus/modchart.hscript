@@ -1,0 +1,49 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 1794){ 
+  dad.playAnim('shoot1');
+}
+if (step == 1802)
+  gf.playAnim('dead', false);
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

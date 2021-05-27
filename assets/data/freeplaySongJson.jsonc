@@ -1,145 +1,671 @@
 [
+   {
+      "name":"Base Game",
+      "songs":[
+	  {
+                 "week" : 0
+                ,"name" : "Test"
+                ,"character" : "bf-pixel"
+            },
+         {
+            "name":"Tutorial",
+            "character":"gf",
+            "week":0
+         },
+         {
+            "name":"Bopeebo",
+            "character":"dad",
+            "week":1
+         },
+         {
+            "name":"Fresh",
+            "character":"dad",
+            "week":1
+         },
+         {
+            "name":"Dadbattle",
+            "character":"dad",
+            "week":1
+         },
+         {
+            "name":"Spookeez",
+            "character":"spooky",
+            "week":2
+         },
+         {
+            "name":"South",
+            "character":"spooky",
+            "week":2
+         },
+         {
+            "name":"Monster",
+            "character":"monster",
+            "week":2
+         },
+         {
+            "name":"Pico",
+            "character":"pico",
+            "week":3
+         },
+         {
+            "name":"Philly",
+            "character":"pico",
+            "week":3
+         },
+         {
+            "name":"Blammed",
+            "character":"pico",
+            "week":3
+         },
+         {
+            "name":"Satin-Panties",
+            "character":"mom",
+            "week":4
+         },
+         {
+            "name":"High",
+            "character":"mom",
+            "week":4
+         },
+         {
+            "name":"Milf",
+            "character":"mom",
+            "week":4
+         },
+         {
+            "name":"Cocoa",
+            "character":"parents-christmas",
+            "week":5
+         },
+         {
+            "name":"Eggnog",
+            "character":"parents-christmas",
+            "week":5
+         },
+         {
+            "name":"Winter-Horrorland",
+            "character":"monster-christmas",
+            "week":5
+         },
+         {
+            "name":"Senpai",
+            "character":"senpai",
+            "week":6
+         },
+         {
+            "name":"Roses",
+            "character":"senpai-angry",
+            "week":6
+         },
+         {
+            "name":"Thorns",
+            "character":"spirit",
+            "week":6
+         },
+         {
+            "name":"Ugh",
+            "character":"tankman",
+            "week":7
+         },
+         {
+            "name":"Guns",
+            "character":"tankman",
+            "week":7
+         },
+         {
+            "name":"Stress",
+            "character":"tankman",
+            "week":7
+         },
+		 
+      ]
+   },
+   
+   {
+      "name":"MCYT Pack",
+      "songs":[
+         {
+            "name":"Dream1",
+            "character":"m",
+            "week":0
+         },
+         {
+            "name":"Dream2",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"Dream3",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"i-see-a-dreamer",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"your-new-boyfriend",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"im-in-love-with-an-egirl",
+            "character":"m",
+            "week":0
+         },
+		 
+      ]
+   }
+   
+   {
+      "name":"Meme Songs",
+      "songs":[
+	  
+         {
+            "name":"two-trucks",
+            "character":"m",
+            "week":0
+         },
+		 
+		 {
+            "name":"doin-yo-mom",
+            "character":"m",
+            "week":0
+         },
+		 
+         {
+            "name":"baka-mitai",
+            "character":"m",
+            "week":0
+         },
+		 
+		 {
+            "name":"flamingo-x-fresh",
+            "character":"m",
+            "week":0
+         },
+		 
+		 {
+            "name":"what-is-love",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"thanos-beatbox",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"scatman-mif",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"amongus-fresh",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"rosecriminal",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"subway-sexist",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"kitchen-without-gun",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"south-gambino",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"eeeaaaooo",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"polish-philly",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"putins-boner",
+            "character":"m",
+            "week":0
+         },
+		 
+		 {
+            "name":"fuck-bees",
+            "character":"m",
+            "week":0
+         },
+		 
+      ]
+   }
+   
+   {
+   "name":"Undertale / Deltarune",
+      "songs":[
+   
+   {
+            "name":"down-to-the-bone",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"rude-buster",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"the-world-revolving",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"lancer",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"lancer-battle",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"amalgam",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"megalo-strikeback",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"mettaton",
+            "character":"m",
+            "week":0
+         },
+		 {
+		 "name":"core",
+            "character":"m",
+            "week":0
+         },
+   
+   ]
+   }
+   
+   {
+   "name":"Actual Songs",
+   "songs":[
+   
+   {
+            "name":"blinding-lights",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"turn-the-lights-off",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"yes-im-changing",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"the-less-i-know-the-better",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"hbfs",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"stupid-horse",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"bad-apple",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"butterfly-remix",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"ttfaf",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"ruler-of-everything",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"scatman",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"wannabe",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"touch-tone-telephone",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"brain-power",
+            "character":"m",
+            "week":0
+         },
+		 
+   
+   ]
+   }
+   {
+   "name":"Other Games",
+   "songs":[
+   
+   {
+            "name":"life-will-change",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"fallen-kingdom",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"revenge",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"car-rap",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"dk-rap",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"super-sonic-racing",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"loonboon",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"still-alive",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"underground-terraria",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"ddlc",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"touhou1",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"touhou2",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"touhou3",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"bad-apple",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"its-been-so-long",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"clutterfunk",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"lawn",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"crazy",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"brains",
+            "character":"m",
+            "week":0
+         },
+		 
+   
+   ]
+   }
+   {
+   "name":"Cartoons / Anime",
+   "songs":[
+  
   {
-    "name": "Base Game",
-    "songs": [
-      // we use tjson so we can do comments and do some incorrect things
-      // the reason we use tjson is because json is hard
-      // The category screen won't show up unless there are more than 1 categories
-      "Tutorial",
-      "Bopeebo",
-      "Fresh",
-      "Dadbattle",
-      "Spookeez",
-      "South",
-      "Monster",
-      "Pico",
-      "Philly",
-      "Blammed",
-      "Satin-Panties",
-      "High",
-      "Milf",
-      "Cocoa",
-      "Eggnog",
-      "Winter-Horrorland",
-      "Senpai",
-      "Roses",
-      "Thorns"
-    ]
-  },
-  // trailing commas don't matter with tjson
-  // visual studio code is just pissy
+            "name":"agent-p",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"golden-wind",
+            "character":"m",
+            "week":0
+         },
+		 {
+            "name":"spooky-month",
+            "character":"m",
+            "week":0
+         },
+		 
+  
+  ]
+   }
 
-
-
-//Start MCYT Pack
    {
-    "name": "MCYT Pack",
-    "songs": [
-    "Dream1",
-    "Dream2",
-	"Dream3",
-	"i-see-a-dreamer",
-	"your-new-boyfriend"
+   "name":"Sarvante",
+   "songs": [
+   {
+                 "week" : 0
+                ,"name" : "Parish"
+                ,"character" : "sarv"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "sarvdark"
+                ,"name" : "Worship"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "Zavodila"
+                ,"character" : "ruv"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "sarvlucifer"
+                ,"name" : "Gospel"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "Casanova"
+                ,"character" : "selever"
+            }
+            
+   
+   ]
+   }
+   
+   {
+   "name":"Garcello"
+   "songs": [
+   
+   
+        ,{
+                 "week" : 0
+                ,"character" : "garcello"
+                ,"name" : "Headache"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "garcellotierd"
+                ,"name" : "Nerves"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "gardead"
+                ,"name" : "Release"
+            }
+			,{
+                 "week" : 0
+                ,"character" : "gardead"
+                ,"name" : "Fading"
+            }
    ]
    },
-   //End MCYT Pack
    
-   
-   
-   //Start Meme Songs
    {
-    "name": "Meme Songs",
-    "songs": [
-    "two-trucks",
-    "doin-yo-mom",
-	"baka-mitai",
-	"flamingo-x-fresh",
-	"what-is-love",
-	"thanos-beatbox",
-	"scatman-milf",
-	"AmongUs-Fresh",
-	"subway-sexist",
-	"kitchen-without-gun",
-	"south-gambino",
-	"eeeaaaooo",
+   "name":"Tord",
+   "songs": [
+   
+   {
+                 "week" : 0
+                ,"name" : "Norway"
+                ,"character" : "tord"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "tordbot"
+                ,"name" : "Tordbot"
+            }
+   
    ]
    },
-   //End Meme Songs
    
-   
-   
-   //Start Undertale Deltarune
    {
-    "name": "Undertale / Deltarune",
-    "songs": [
-    "down-to-the-bone",
-    "rude-buster",
-	"THE-WORLD-REVOLVING",
-	"lancer",
-	"lancer-battle",
-	"amalgam",
-	"megalo-strikeback",
+   "name":"sky"
+   "songs": [
+   
+   {
+                 "week" : 0
+                ,"name" : "Wife-Forever"
+                ,"character" : "sky"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "skymad"
+                ,"name" : "Sky"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "Manifest"
+                ,"character" : "skydemon"
+            }
+   
+   
    ]
    },
-   //End Undertale Deltarune
-   
-   
-   
-   //Actual Songs
    {
-    "name": "Actual Songs",
-    "songs": [
-    "Blinding-Lights",
-    "Uptown-Funk",
-	"turn-the-lights-off",
-	"yes-im-changing",
-	"hbfs",
-	"stupid-horse",
-	"bad-apple",
-	"butterfly-remix",
-	"ttfaf",
+   "name":"pompom"
+   "songs": [
+   
+   {
+                 "week" : 0
+                ,"name" : "sugar-cookie"
+                ,"character" : "pompom"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "pompom"
+                ,"name" : "key-lime"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "stomachache"
+                ,"character" : "pompom"
+            }
+   
+   
    ]
    },
-   //End of Actual Songs category   
-   
-   
-   //Songs from Diff. Games
    {
-    "name": "Songs from different games",
-    "songs": [
-    "life-will-change",	
-	"fallen-kingdom",
-	"revenge",
-	"car-rap",
-	"dk-rap",
-	"SUPER-SONIC-Racing",
-	"loonboon",
-	"still-alive",
-	"underground-terraria",
-	"ddlc",
-	"touhou1",
-	"touhou2",
-	"touhou3",
-	"bad-apple",
-	
-
-	
-   ]
-   },
-   //End of Category Diff Games
+   "name":"matt"
+   "songs": [
    
-   
-   //Cartoon Songs
    {
-    "name": "Songs from Cartoons",
-    "songs": [
-    "agent-p",
-
-	
+                 "week" : 0
+                ,"name" : "light-it-up"
+                ,"character" : "matt"
+            }
+            ,{
+                 "week" : 0
+                ,"character" : "matt"
+                ,"name" : "ruckus"
+            }
+            ,{
+                 "week" : 0
+                ,"name" : "target-practice"
+                ,"character" : "matt"
+				}
+            ,{
+                 "week" : 0
+                ,"name" : "sporting"
+                ,"character" : "matt"
+				}
+            ,{
+                 "week" : 0
+                ,"name" : "boxing-match"
+                ,"character" : "matt"
+            }
+			
+   
+   
    ]
-   },
-   //End Category Cartoons
-   
-   
-   
-]
+   }
+   ]

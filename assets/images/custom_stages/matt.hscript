@@ -1,0 +1,65 @@
+var bgchar;
+function start(song) {
+    var stageFront = new FlxSprite(-600, -200).loadGraphic(hscriptPath + 'arena-bg.png');
+    stageFront.setGraphicSize(Std.int(stageFront.width * 1));
+    stageFront.scrollFactor.set(0.9, 0.9);
+    stageFront.antialiasing = true;
+    stageFront.updateHitbox();
+    addSprite(stageFront, BEHIND_ALL);    
+    bgchar = new MetroSprite(-600, 140,true);
+    bgchar.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'arena-characters.png', hscriptPath + 'arena-characters.xml');
+    bgchar.animation.addByPrefix("idle", "bg-characters", 24, false);
+    bgchar.animation.play("idle");
+	bgchar.setGraphicSize(Std.int(bgchar.width * 1));
+	bgchar.scrollFactor.set(0.99, 0.9);
+	bgchar.antialiasing = true;
+	bgchar.updateHitbox();
+    addSprite(bgchar, BEHIND_ALL);
+    var railing = new FlxSprite(-600, 320).loadGraphic(hscriptPath + 'railing.png');
+    railing.setGraphicSize(Std.int(railing.width * 1));
+    railing.scrollFactor.set(0.9, 0.9);
+    railing.antialiasing = true;
+    railing.updateHitbox();
+    addSprite(railing, BEHIND_ALL);
+    dad.y += 280;    
+    setDefaultZoom(0.9);
+}
+
+
+function beatHit(beat)
+{
+    bgchar.dance();
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

@@ -1,0 +1,45 @@
+trace(": )");
+// char is a Character
+function init(char) {
+    trace(": )");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace(": )");
+    char.frames = tex;
+    char.animation.addByPrefix('idle', 'tordbot idle', 31, false);
+    char.animation.addByPrefix('singUP', 'tordbot up', 24, false);
+    char.animation.addByPrefix('singLEFT','tordbot left', 24, false);
+    char.animation.addByPrefix('singRIGHT', 'tordbot right', 24, false);
+    char.animation.addByPrefix('singDOWN', 'tordbot down', 24, false);
+    trace("finish anim");
+
+    char.addOffset('idle', 0);
+    char.addOffset('singUP', 0, 20);
+    char.addOffset('singRIGHT',0);
+    char.addOffset('singLEFT', 0);
+    char.addOffset('singDOWN', 0, -30);
+
+    char.playAnim('idle');
+
+    char.flipX = false;
+
+    char.enemyOffsetX = -649.05;
+    char.enemyOffsetY = -1424.75;
+    char.playerOffsetX = -429.05;
+    char.playerOffsetY = -1424.75;
+    char.followCamX = 51.2;
+    char.followCamY = -760.15;
+    char.midpointX = 0;
+    char.midpointY = 0;
+}
+portraitOffset = [0, 0];
+dadVar = 6.1;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace(": )");
+    char.playAnim('idle');
+}
+trace("done");

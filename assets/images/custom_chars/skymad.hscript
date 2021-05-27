@@ -1,0 +1,80 @@
+trace(": )");
+// char is a Character
+function init(char) {
+    trace(": )");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace(": )");
+    char.frames = tex;
+    char.animation.addByIndices('danceLeft', 'sky annoyed idle', [0,2,6], "", 12, false);
+    char.animation.addByIndices('danceRight', 'sky annoyed idle', [8,10,12,14], "", 12, false);
+    char.animation.addByPrefix('singUP', 'sky annoyed up', 24, false);
+    char.animation.addByPrefix('singLEFT','sky annoyed left', 24, false);
+    char.animation.addByPrefix('singRIGHT', 'sky annoyed right', 24, false);
+    char.animation.addByPrefix('singDOWN', 'sky annoyed down', 24, false);
+    char.animation.addByIndices('danceLeft-alt', 'sky annoyed alt idle', [0,2,6], "", 12, false);
+    char.animation.addByIndices('danceRight-alt', 'sky annoyed alt idle', [8,10,12,14], "", 12, false);
+    char.animation.addByPrefix('singUP-alt', 'sky annoyed alt up', 24, false);
+    char.animation.addByPrefix('singLEFT-alt','sky annoyed alt left', 24, false);
+    char.animation.addByPrefix('singRIGHT-alt', 'sky annoyed alt right', 24, false);
+    char.animation.addByPrefix('singDOWN-alt', 'sky annoyed alt down', 24, false);
+    char.animation.addByPrefix('grr', 'sky annoyed grr', 24, false);
+    char.animation.addByPrefix('huh','sky annoyed huh', 24, false);
+    char.animation.addByPrefix('oh', 'sky annoyed oh', 24, false);
+    char.animation.addByPrefix('ugh', 'sky annoyed ugh', 24, false);        
+    trace("finish anim");
+
+    char.addOffset('danceLeft', 0);
+    char.addOffset('danceRight', 0);    
+    char.addOffset('singUP', 0);
+    char.addOffset('singRIGHT',0);
+    char.addOffset('singLEFT', 0);
+    char.addOffset('singDOWN', 0);
+    char.addOffset('danceLeft-alt', 0);
+    char.addOffset('danceRight-alt', 0);    
+    char.addOffset('singUP-alt', 0);
+    char.addOffset('singRIGHT-alt',0);
+    char.addOffset('singLEFT-alt', 0);
+    char.addOffset('singDOWN-alt', 0);  
+    char.addOffset('huh', 0);
+    char.addOffset('grr',0);
+    char.addOffset('oh', 0);
+    char.addOffset('ugh', 0); 
+    char.addOffset('danceLeft');
+    char.addOffset('danceRight');
+    char.addOffset('danceLeft-alt');
+    char.addOffset('danceRight-alt');               
+
+    char.playAnim('danceLeft');
+
+    char.flipX = false;
+
+    char.enemyOffsetX = -160;
+    char.enemyOffsetY = 20;
+    char.playerOffsetX = -1270;
+    char.playerOffsetY = 1100;
+    char.followCamX = 259;
+    char.followCamY = 0;
+    char.midpointX = 0;
+    char.midpointY = 0;
+}
+portraitOffset = [0, 0];
+dadVar = 6.1;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace(": )");
+    if (char.animation.curAnim.name != "huh") 
+    if (char.animation.curAnim.name != "oh")          
+    if (char.animation.curAnim.name != "grr")
+    if (char.animation.curAnim.name != "ugh"){         
+    danced = !danced;
+    if (danced) {
+        char.playAnim('danceLeft' + char.altAnim);
+    } else {
+        char.playAnim('danceRight' + char.altAnim);
+    }}
+}
+trace("done");

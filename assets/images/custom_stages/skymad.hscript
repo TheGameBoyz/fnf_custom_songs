@@ -1,0 +1,52 @@
+
+function start(song) {
+    annoy = new MetroSprite(-240, -90,true);
+    annoy.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'bg_annoyed.png', hscriptPath + 'bg_annoyed.xml');
+    annoy.animation.addByPrefix("idle", "bg2", 24, false);
+	  annoy.setGraphicSize(Std.int(annoy.width * 0.85));
+  	annoy.scrollFactor.set(0.33, 0.33);
+  	annoy.antialiasing = true;
+  	annoy.updateHitbox();
+  	addSprite(annoy, BEHIND_ALL);
+    setDefaultZoom(1);
+    dad.y += 80;          
+}
+
+
+function beatHit(beat)
+{
+  annoy.dance();
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

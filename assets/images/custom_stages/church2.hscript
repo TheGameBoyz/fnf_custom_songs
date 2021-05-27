@@ -1,0 +1,73 @@
+var sarv;
+function start(song) {
+    var stageFront = new FlxSprite(-690, -740).loadGraphic(hscriptPath + 'base.png');
+    stageFront.setGraphicSize(Std.int(stageFront.width * 1.4));
+    stageFront.scrollFactor.set(0.9, 0.9);
+    stageFront.antialiasing = true;
+    stageFront.updateHitbox();
+    addSprite(stageFront, BEHIND_ALL);
+    var pillar = new FlxSprite(-690, -740).loadGraphic(hscriptPath + 'pillarbroke.png');
+    sarv = new MetroSprite(-240, 380,true);
+    sarv.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'theseknees.png', hscriptPath + 'theseknees.xml');
+    sarv.animation.addByPrefix("idle", "TiredSarv", 24, false);
+    sarv.animation.play("idle");
+	sarv.setGraphicSize(Std.int(sarv.width * 0.85));
+	sarv.scrollFactor.set(0.9, 0.9);
+	sarv.antialiasing = true;
+	sarv.updateHitbox();
+	addSprite(sarv, BEHIND_DAD); 
+    pillar.setGraphicSize(Std.int(pillar.width * 1.4));
+    pillar.scrollFactor.set(0.9, 0.9);
+    pillar.antialiasing = true;
+    pillar.updateHitbox();
+    addSprite(pillar, BEHIND_DAD | BEHIND_BF);         
+    dad.y += 540; 
+    boyfriend.y += 540; 
+    gf.y += 260;    
+    gf.x += -140;        
+    dad.x += -170;
+    boyfriend.x += -20; 
+    getHaxeActor("bf").followCamY -= 200;                   
+    setDefaultZoom(0.7);
+}
+
+
+function beatHit(beat)
+{
+    sarv.dance();
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+    FlxG.camera.shake(0.01, 0.08);
+    gf.playAnim('scared');    
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

@@ -1,0 +1,15 @@
+{
+     "stressTankmen" : false
+    ,"ignoreShittyTiming" : false
+    ,"style" : true
+    ,"useCustomInput" : true
+    ,"showSongPos" : true
+    ,"skipModifierMenu" : false
+    ,"DJFKKeys" : true
+    ,"alwaysDoCutscenes" : true
+    ,"downscroll" : false
+    ,"skipVictoryScreen" : true
+    ,"preferredSave" : 0
+    ,"allowEditOptions" : true
+    ,"useSaveDataMenu" : true
+}

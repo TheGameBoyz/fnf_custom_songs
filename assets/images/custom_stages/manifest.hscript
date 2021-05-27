@@ -1,0 +1,64 @@
+var manibg;
+var manifloor;
+function start(song) {
+    manibg = new MetroSprite(-240, -90,true);
+    manibg.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'bg_manifest.png', hscriptPath + 'bg_manifest.xml');
+    manibg.animation.addByPrefix("idle", "bg_manifest", 24, false);
+	manibg.setGraphicSize(Std.int(manibg.width * 0.85));
+  	manibg.scrollFactor.set(0.9, 0.9);
+  	manibg.antialiasing = true;
+  	manibg.updateHitbox();
+  	addSprite(manibg, BEHIND_ALL);
+    manifloor = new MetroSprite(-240, -290,true);
+    manifloor.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'floorManifest.png', hscriptPath + 'floorManifest.xml');
+    manifloor.animation.addByPrefix("idle", "floorManifest", 24, false);
+	manifloor.setGraphicSize(Std.int(manifloor.width * 0.85));
+  	manifloor.scrollFactor.set(0.9, 0.9);
+  	manifloor.antialiasing = true;
+  	manifloor.updateHitbox();
+  	addSprite(manifloor, BEHIND_ALL);
+    setDefaultZoom(1);
+    dad.y += 130;
+    dad.x += 30;    
+    gf.y += -50;    
+}
+
+
+function beatHit(beat)
+{
+  manibg.dance();
+  manifloor.dance();  
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

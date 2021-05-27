@@ -1,0 +1,64 @@
+function start(song) {
+    bg = new FlxSprite(-242.1, -386.1);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'sky.png', hscriptPath + 'sky.xml');
+    bg.setGraphicSize(Std.int(bg.width * 0.1000));   
+    bg.scrollFactor.set(0.5, 0);     
+    bg.frames = tex;
+    bg.animation.addByPrefix("idle", "bg_sky2", 24, true);
+    bg.animation.play("idle");
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+    front = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'bgFront.png', hscriptPath + 'bgFront.xml');
+    front.frames = tex;
+    front.animation.addByPrefix("idle", "bg_destroyed", 24, true);
+    front.animation.play("idle");
+    front.antialiasing = true;
+    addSprite(front, BEHIND_ALL);
+    setDefaultZoom(0.9);
+    getHaxeActor("bf").x += 260;
+    getHaxeActor("bf").y -= -40;
+    getHaxeActor("bf").followCamX -= 200;
+    getHaxeActor("dad").x += 40;
+    getHaxeActor("dad").y -= -140;  
+    setDefaultZoom(0.9);      
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

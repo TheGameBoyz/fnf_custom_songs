@@ -1,0 +1,80 @@
+var sweetstagehouse;
+var sweetstagemackie;
+var sweetstagecity;
+function start(song) {
+    setDefaultZoom(0.9);
+
+    var bg = new FlxSprite(-500, -300).loadGraphic(hscriptPath + 'pompombg.png');
+    bg.scrollFactor.set(0.4, 0.4);
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);  
+    var sweetstagecity = new MetroSprite(-300, 260, true);
+    sweetstagecity.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'pompomcity.png', hscriptPath  + 'pompomcity.xml');
+    sweetstagecity.animation.addByPrefix('idle', 'pompom city', 24, false);
+    sweetstagecity.antialiasing = true;
+    sweetstagecity.scrollFactor.set(0.6, 0.6);
+    addSprite(sweetstagecity, BEHIND_ALL);      
+    var stageFront = new FlxSprite(-400, -60).loadGraphic(hscriptPath + 'pompomtrees.png');
+    stageFront.scrollFactor.set(0.82, 0.82);
+    stageFront.antialiasing = true;
+    stageFront.updateHitbox();
+    addSprite(stageFront, BEHIND_ALL);
+    sweetstagehouse = new MetroSprite(-160, 30, true);
+    sweetstagehouse.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'pompomhouse.png', hscriptPath  + 'pompomhouse.xml');
+    sweetstagehouse.animation.addByPrefix('idle', 'pompom house', 24, false);
+    sweetstagehouse.scrollFactor.set(0.92, 0.92);
+    sweetstagehouse.antialiasing = true;
+    addSprite(sweetstagehouse, BEHIND_ALL);   
+    var stagecurtains = new FlxSprite(-500, -100).loadGraphic(hscriptPath + 'pompomfg.png');
+    stagecurtains.setGraphicSize(Std.int(stageFront.width * 0, 0));
+    stagecurtains.scrollFactor.set(0.82, 0.82);
+    stagecurtains.updateHitbox();
+    stagecurtains.antialiasing = true;
+    addSprite(stagecurtains, BEHIND_ALL);
+    sweetstagemackie = new MetroSprite(1200, 600, true);
+    sweetstagemackie.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'mackiebob.png', hscriptPath  + 'mackiebob.xml');
+    sweetstagemackie.animation.addByPrefix('idle', 'mackie', 24, false);
+    sweetstagemackie.antialiasing = true;
+    addSprite(sweetstagemackie, BEHIND_ALL);    
+}
+
+
+function beatHit(beat)
+    {
+        sweetstagemackie.dance();
+        sweetstagehouse.dance();
+        sweetstagecity.dance();        
+    }
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

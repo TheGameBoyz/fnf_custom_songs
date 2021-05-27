@@ -30,5 +30,45 @@
   "senpai":{
     "like": "senpai",
     "defaultGraphics": true
+  },
+  "tankman": {
+    "like":"tankman",
+    "defaultGraphics": true
+  },
+  "MetaR": {
+    "like":"bf",
+    "defaultGraphics": false
+  },
+    "garcello": {
+    "like":"garcello",
+    "defaultGraphics": false
+  },
+  "pompom": {
+    "like":"pompom",
+    "defaultGraphics": false
+  },
+  "sky": {
+    "like":"sky",
+    "defaultGraphics": false
+  },
+  "flchan": {
+    "like":"mom",
+    "defaultGraphics": false
+  },
+  "matt": {
+    "like":"matt",
+    "defaultGraphics": false
+  },
+  "mid": {
+    "like":"mid",
+    "defaultGraphics": false
+  },
+  "sel": {
+    "like":"sel",
+    "defaultGraphics": false
+  },
+  "n": {
+    "like":"bf",
+    "defaultGraphics": false
   }
 }

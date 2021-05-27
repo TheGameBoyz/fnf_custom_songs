@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Background0000" x="0" y="0" width="2216" height="1085" pivotX="200.9" pivotY="188.9"/>
+	<SubTexture name="bg_with_seizures0000" x="2216" y="0" width="2749" height="957" pivotX="1098.65" pivotY="478.1" frameX="-146" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0001" x="4965" y="0" width="2229" height="957" frameX="-35" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0002" x="0" y="1085" width="2487" height="957" frameX="0" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0003" x="2487" y="1085" width="2749" height="957" frameX="-146" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0004" x="5236" y="1085" width="2229" height="957" frameX="-35" frameY="0" frameWidth="2895" frameHeight="957"/>
+	<SubTexture name="bg_with_seizures0005" x="0" y="2042" width="2487" height="957" frameX="0" frameY="0" frameWidth="2895" frameHeight="957"/>
+</TextureAtlas>

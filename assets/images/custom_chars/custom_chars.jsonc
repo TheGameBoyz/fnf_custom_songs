@@ -1,140 +1,717 @@
 {
-"template": {
+  "template": {
     "like": "bf",
-    "icons": [0,1]
+    "icons": [0,1,24],
+    "colors": ["#149DFF"]
   },
-  "templateBfCar": {
+  "bf": {
+    "like": "bf",
+    "icons": [0,1,2],
+    "colors": ["#149DFF"]
+  },
+  "bf-car": {
     "like": "bf-car",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#149DFF"]
   },
-  "templateBfChristmas": {
-    "like": "bf-christmas",
-    "icons": [0,1]
+  "bf-christmas": {
+    "like": "bf-car",
+    "icons": [0,1,2],
+    "colors": ["#149DFF"]
   },
-  "templateBfPixel": {
+  "bf-pixel": {
     "like": "bf-pixel",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#149DFF"]
   },
-  "templateDad": {
+  "dad": {
     "like": "dad",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#A200CA"]
   },
-  "templateGfCar": {
+  "gf-car": {
     "like": "gf-car",
-    "icons": [0,1]
+    "icons": [0,0,1],
+    "colors": ["#EE19D9"]
   },
-  "templateGfPixel": {
+  "gf-pixel": {
     "like": "gf-pixel",
-    "icons": [0,1]
+    "icons": [0,0,1],
+    "colors": ["#EE19D9"]
   },
-  "templateGf": {
+  "gf-christmas": {
     "like": "gf",
-    "icons": [0,1]
+    "icons": [0,0,1],
+    "colors": ["#EE19D9"]
+  },
+  "gf": {
+    "like": "gf",
+    "icons": [0,0,1],
+    "colors": ["#EE19D9"]
   },
   "templateMonster": {
     "like": "monster",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#F2D046"]
   },
-  "templateNewMonster": {
+  "monster": {
     "like": "newmonster",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#F2D046"]
   },
-  "templateParents": {
+  "monster-christmas": {
+    "like": "monster-christmas",
+    "icons": [0,1,2],
+    "colors": ["#F2D046"]
+  },
+  "parents-christmas": {
     "like": "parents",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#A200CA", "#FF95C5"]
   },
-  "templatePico": {
+  "pico": {
     "like": "pico",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#99FF7D"]
   },
-  "templateSenpaiAngry": {
+  "senpai-angry": {
     "like": "senpai-angry",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#BC7333"]
   },
-  "templateSenpai": {
+  "senpai": {
     "like": "senpai",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#BC7333"]
   },
-  "templateSpirit": {
-    "like": "bf-christmas",
-    "icons": [0,1]
+  "spirit": {
+    "like": "spirit",
+    "icons": [0,1,2],
+    "colors": ["#E77474"]
   },
-  "templateSpooky": {
+  "spooky": {
     "like": "spooky",
-    "icons": [0,1]
+    "icons": [0,1,2],
+    "colors": ["#FD9013","#C3C3C3"]
   },
-  "templateMom": {
+  "mom": {
     "like": "mom",
-    "icons": [6,7]
+    "icons": [0,1,2],
+    "colors": ["#FF95C5"]
   },
-  "dream": {
+  "mom-car": {
+    "like": "mom-car",
+    "icons": [0,1,2],
+    "colors": ["#FF95C5"]
+  },
+  "templateSenpai-hd": {
+    "like": "senpai-hd",
+    "icons": [0,1,2],
+    "colors": ["#BC7333"]
+  },
+  "templateSenpaiAngry-hd": {
+    "like": "senpai-angry-hd",
+    "icons": [0,1,2],
+    "colors": ["#BC7333"]
+  },
+  "templateSpirit-hd": {
+    "like": "spirit-hd",
+    "icons": [0,1,2],
+    "colors": ["#BC7333"]
+  },
+  "tankman": {
+    "like": "tankman",
+    "icons": [0,1,2],
+    "colors": ["#C3C3C3"]
+  },
+  "gf-tankmen": {
+    "like": "gf-tankmen",
+    "icons": [0,0,1],
+    "colors": ["#EE19D9"]
+  },
+  "pico-speaker": {
+    "like": "pico-speaker",
+    "icons": [0,1,2],
+    "colors": ["#99FF7D"]
+  },
+  "bf-holding-gf": {
+    "like": "bf-holding-gf",
+    "icons": [0,1,2],
+    "colors": ["#149DFF","#EE19D9"]
+  },
+    "dream": {
     "like": "pico",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1]
+	     "colors": ["#A200CA"]
+     
   },
   "bf-apple": {
     "like": "bf",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "joker": {
     "like": "bf",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "moma": {
     "like": "dad",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "papyrus": {
     "like": "dad",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "rick": {
     "like": "dad",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "wilbur": {
     "like": "spooky",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "xeno": {
     "like": "dad",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "gf-apple": {
     "like": "gf",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "sans": {
     "like": "bf",
-    "icons": [0,1],
-    "uniqueicons": true
+     "icons": [0,0,1],
+	     "colors": ["#A200CA"]
+     
   },
   "asriel": {
     "like": "gf",
-    "icons": [0,1],
-    "uniqueicons": false
+     "icons": [0,0,1],
+    "colors": ["#EE19D9"]
+     
   },
   "kris": {
   "like": "bf",
-  "icons": [0,1],
-  "uniqueicons": false
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+   
   },
   "monika": {
   "like": "senpai",
-  "icons": [0,1],
-  "uniqueicons": false
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+   
   },
   "jtgc": {
   "like": "bf",
-  "icons": [0,1],
-  "uniqueicons": true
-}
-}
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+   
+},
+
+"jtgc-p": {
+  "like": "bf-pixel",
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+   
+},
+
+"mj": {
+"like": "senpai-angry",
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+ 
+},
+
+"zombie": {
+"like": "dad",
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+ 
+},
+
+"sunflower": {
+"like": "spooky",
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+ 
+},
+
+"simpbur": {
+"like": "senpai"
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+ 
+},
+
+"m": {
+"like": "senpai-angry",
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+  
+},
+
+  "Tari": {
+  "like": "bf",
+   "icons": [0,0,1],
+       "colors": ["#4EA2D1"]
+},
+
+  "Belle": {
+  "like": "mom",
+   "icons": [0,0,1],
+       "colors": ["#A200CA"]
+	   },
+     "pompom" : {
+         "icons" : [
+             24
+            ,25
+            ,27
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "pompom"
+    }
+    ,"templateMonster" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "monster"
+    }
+    ,"sky" : {
+         "icons" : [
+             24
+            ,25
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "sky"
+    }
+    ,"gacha" : {
+         "icons" : [
+             24
+            ,25
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gacha"
+    }
+    ,"sarvdark" : {
+         "icons" : [
+             31
+            ,31
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "sarvdark"
+    }
+    ,"bfmii" : {
+         "icons" : [
+             0
+            ,1
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "bf"
+    }
+    ,"gftrain" : {
+         "icons" : [
+             16
+            ,16
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gftrain"
+    }
+    ,"skydemon" : {
+         "icons" : [
+             26
+            ,26
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "skydemon"
+    }
+    ,"mom" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "mom"
+    }
+    ,"spooky" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "spooky"
+    }
+    ,"bf-car" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "bf-car"
+    }
+    ,"gfcrus" : {
+         "icons" : [
+             0
+            ,1
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gfcrus"
+    }
+    ,"tord" : {
+         "icons" : [
+             24
+            ,25
+            ,25
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "tord"
+    }
+    ,"garcellotierd" : {
+         "icons" : [
+             26
+            ,27
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "garctierd"
+    }
+    ,"gfmii" : {
+         "icons" : [
+             0
+            ,1
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gf"
+    }
+    ,"skymad" : {
+         "icons" : [
+             25
+            ,25
+            ,27
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "skymad"
+    }
+    ,"monster-christmas" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "newmonster"
+    }
+    ,"sunday" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "sunday"
+    }
+    ,"senpai-angry" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "senpai-angry"
+    }
+    ,"tankman" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "tankman"
+    }
+    ,"imposter" : {
+         "icons" : [
+             24
+            ,25
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "imposter"
+    }
+    ,"spirit" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "spirit"
+    }
+    ,"sarvlucifer" : {
+         "icons" : [
+             34
+            ,35
+            ,35
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "sarvlucifer"
+    }
+    ,"sarv" : {
+         "icons" : [
+             30
+            ,31
+            ,34
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "sarvente"
+    }
+    ,"pompombitch" : {
+         "icons" : [
+             26
+            ,27
+            ,27
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "pompombitch"
+    }
+    ,"mom-car" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "mom"
+    }
+    ,"bf-holding-gf" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "bf-holding-gf"
+    }
+    ,"monika" : {
+         "icons" : [
+             22
+            ,22
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "senpai"
+    }
+    ,"templateSenpai-hd" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "senpai-hd"
+    }
+    ,"ruv" : {
+         "icons" : [
+             32
+            ,33
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "ruv"
+    }
+    ,"matt" : {
+         "icons" : [
+             24
+            ,25
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "matt"
+    }
+    ,"gf-christmas" : {
+         "icons" : [
+             0
+            ,0
+            ,1
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gf"
+    }
+    ,"garcello" : {
+         "icons" : [
+             24
+            ,25
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "garc"
+    }
+    ,"bex" : {
+         "icons" : [
+             0
+            ,1
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "bex"
+    }
+    ,"pico-speaker" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "pico-speaker"
+    }
+    ,"gf-pixel" : {
+         "icons" : [
+             0
+            ,0
+            ,1
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gf-pixel"
+    }
+    ,"flchan" : {
+         "icons" : [
+             6
+            ,7
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "flchan"
+    }
+    ,"selever" : {
+         "icons" : [
+             36
+            ,37
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "selever"
+    }
+    ,"gfholiday" : {
+         "icons" : [
+             16
+            ,16
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gf"
+    }
+    ,"bf-christmas" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "bf-car"
+    }
+    ,"gfnight" : {
+         "icons" : [
+             0
+            ,1
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gf"
+    }
+    ,"monster" : {
+         "icons" : [
+             0
+            ,1
+            ,2
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "newmonster"
+    }
+    ,"tordbot" : {
+         "icons" : [
+             26
+            ,27
+            ,27
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "tordbot"
+    }
+    ,"template" : {
+         "icons" : [
+             0
+            ,1
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "bf"
+    }
+    ,"mattmad" : {
+         "icons" : [
+             25
+            ,25
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "matt"
+    }
+    ,"gardead" : {
+         "icons" : [
+             28
+            ,29
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "gardead"
+    }
+	,"fading" : {
+         "icons" : [
+             28
+            ,29
+            ,24
+        ]
+		"colors": ["#A200CA"]
+        ,"like" : "fading"
+    }   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   }

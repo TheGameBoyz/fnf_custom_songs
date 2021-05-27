@@ -1,0 +1,513 @@
+{
+     "notes" : [
+         {
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+                 [
+                     1162.5
+                    ,2
+                    ,225
+                ]
+                ,[
+                     1500
+                    ,3
+                    ,300
+                ]
+                ,[
+                     225
+                    ,1
+                    ,825
+                ]
+                ,[
+                     2145
+                    ,1
+                    ,825
+                ]
+            ]
+            ,"bpm" : 150
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+                 [
+                     2985
+                    ,2
+                    ,300
+                ]
+                ,[
+                     3375
+                    ,3
+                    ,375
+                ]
+                ,[
+                     4016.25
+                    ,5
+                    ,0
+                ]
+                ,[
+                     4425
+                    ,5
+                    ,0
+                ]
+                ,[
+                     4057.5
+                    ,1
+                    ,0
+                ]
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+                 [
+                     4927.5
+                    ,5
+                    ,0
+                ]
+                ,[
+                     5343.75
+                    ,5
+                    ,0
+                ]
+                ,[
+                     5730
+                    ,5
+                    ,0
+                ]
+                ,[
+                     6015
+                    ,6
+                    ,0
+                ]
+                ,[
+                     6270
+                    ,4
+                    ,0
+                ]
+                ,[
+                     6551.25
+                    ,6
+                    ,0
+                ]
+                ,[
+                     6806.25
+                    ,5
+                    ,0
+                ]
+                ,[
+                     7061.25
+                    ,6
+                    ,0
+                ]
+                ,[
+                     4882.5
+                    ,2
+                    ,0
+                ]
+                ,[
+                     5261.25
+                    ,3
+                    ,0
+                ]
+                ,[
+                     5940
+                    ,1
+                    ,0
+                ]
+                ,[
+                     6712.5
+                    ,2
+                    ,0
+                ]
+                ,[
+                     7005
+                    ,3
+                    ,0
+                ]
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+                 [
+                     7342.5
+                    ,4
+                    ,0
+                ]
+                ,[
+                     7642.5
+                    ,6
+                    ,0
+                ]
+                ,[
+                     7593.75
+                    ,6
+                    ,0
+                ]
+                ,[
+                     7788.75
+                    ,1
+                    ,0
+                ]
+                ,[
+                     8017.5
+                    ,1
+                    ,0
+                ]
+                ,[
+                     8193.75
+                    ,1
+                    ,0
+                ]
+                ,[
+                     8422.5
+                    ,2
+                    ,0
+                ]
+                ,[
+                     8602.5
+                    ,3
+                    ,0
+                ]
+                ,[
+                     8737.5
+                    ,1
+                    ,0
+                ]
+                ,[
+                     8943.75
+                    ,1
+                    ,0
+                ]
+            ]
+            ,"changeBPM" : true
+            ,"bpm" : 129
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : false
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"sectionNotes" : [
+
+            ]
+            ,"mustHitSection" : true
+        }
+        ,{
+             "sectionNotes" : [
+
+            ]
+            ,"typeOfSection" : 0
+            ,"lengthInSteps" : 16
+            ,"altAnim" : false
+            ,"mustHitSection" : true
+            ,"changeBPM" : false
+            ,"bpm" : 100
+        }
+        ,{
+             "lengthInSteps" : 16
+            ,"altAnim" : false
+            ,"typeOfSection" : 0
+            ,"sectionNotes" : [
+
+            ]
+            ,"bpm" : 100
+            ,"changeBPM" : false
+            ,"mustHitSection" : true
+        }
+        ,{
+             "lengthInSteps" : 16
+            ,"altAnim" : false
+            ,"typeOfSection" : 0
+            ,"sectionNotes" : [
+
+            ]
+            ,"bpm" : 100
+            ,"changeBPM" : false
+            ,"mustHitSection" : true
+        }
+        ,{
+             "lengthInSteps" : 16
+            ,"altAnim" : false
+            ,"typeOfSection" : 0
+            ,"sectionNotes" : [
+
+            ]
+            ,"bpm" : 100
+            ,"changeBPM" : false
+            ,"mustHitSection" : true
+        }
+        ,{
+             "lengthInSteps" : 16
+            ,"altAnim" : false
+            ,"typeOfSection" : 0
+            ,"sectionNotes" : [
+
+            ]
+            ,"bpm" : 100
+            ,"changeBPM" : false
+            ,"mustHitSection" : true
+        }
+        ,{
+             "lengthInSteps" : 16
+            ,"altAnim" : false
+            ,"typeOfSection" : 0
+            ,"sectionNotes" : [
+
+            ]
+            ,"bpm" : 100
+            ,"changeBPM" : false
+            ,"mustHitSection" : true
+        }
+        ,{
+             "lengthInSteps" : 16
+            ,"altAnim" : false
+            ,"typeOfSection" : 0
+            ,"sectionNotes" : [
+
+            ]
+            ,"bpm" : 100
+            ,"changeBPM" : false
+            ,"mustHitSection" : true
+        }
+    ]
+    ,"sections" : 34
+    ,"bpm" : 129
+    ,"song" : {
+         "isMoody" : false
+        ,"player1" : "bf"
+        ,"sectionLengths" : [
+
+        ]
+        ,"notes" : [
+             "@~obRef#1"
+            ,"@~obRef#2"
+            ,"@~obRef#3"
+            ,"@~obRef#4"
+            ,"@~obRef#5"
+            ,"@~obRef#6"
+            ,"@~obRef#7"
+            ,"@~obRef#8"
+            ,"@~obRef#9"
+            ,"@~obRef#10"
+            ,"@~obRef#11"
+            ,"@~obRef#12"
+            ,"@~obRef#13"
+            ,"@~obRef#14"
+            ,"@~obRef#15"
+            ,"@~obRef#16"
+            ,"@~obRef#17"
+            ,"@~obRef#18"
+            ,"@~obRef#19"
+            ,"@~obRef#20"
+            ,"@~obRef#21"
+            ,"@~obRef#22"
+            ,"@~obRef#23"
+            ,"@~obRef#24"
+            ,"@~obRef#25"
+            ,"@~obRef#26"
+            ,"@~obRef#27"
+            ,"@~obRef#28"
+            ,"@~obRef#29"
+            ,"@~obRef#30"
+            ,"@~obRef#31"
+            ,"@~obRef#32"
+            ,"@~obRef#33"
+            ,"@~obRef#34"
+        ]
+        ,"player2" : "gf"
+        ,"cutsceneType" : "none"
+        ,"isSpooky" : false
+        ,"song" : "the-attic-atrocity"
+        ,"uiType" : "normal"
+        ,"needsVoices" : false
+        ,"stage" : "stage"
+        ,"validScore" : true
+        ,"sections" : 0
+        ,"bpm" : 100
+        ,"speed" : 1
+        ,"gf" : "gf"
+    }
+}

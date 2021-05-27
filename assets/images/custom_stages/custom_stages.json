@@ -1,16 +1,43 @@
 {
-  "template": "stage",
-  "templateLimo": "limo",
-  "templatePhilly": "philly",
-  "templateSpooky": "spooky",
-  "templateMall": "mall",
-  "templateEvilMall": "mallEvil",
-  "dream": "stage",
+    "limo": "limo",
+    "mall": "mall",
+    "mallEvil": "mallEvil",
+    "philly": "philly",
+    "school": "school",
+    "schoolEvil": "schoolEvil",
+    "spooky": "spooky",
+    "stage": "stage",
+    "tank": "tank"
+	"dream": "stage",
   "papyrus-room": "stage",
   "bad-apple": "stage",
   "mementos": "stage",
   "portal": "stage",
   "fnaf2": "spooky",
   "pnf": "stage",
-  "terraria": "stage"
+  "terraria": "stage",
+  "templateGarden": "stage",
+  "meta": "stage",
+    "schoolhd": "schoolhd"
+    "garc": "gacello"
+    "gardead": "gacello"
+    "pompom": "pompom"
+    "tord": "tord"
+    "tordbot": "tordbot"
+    "train": "train"
+    "sunday": "sunday"
+    "sky": "sky"
+    "skymad": "skymad"
+    "manifest": "manifest"
+    "gacha": "gacha"
+    "holiday": "holiday"
+    "matt": "matt"
+    "mattmad": "mattmad"
+    "church1": "church"
+    "church1a": "church"
+    "church2": "church2"
+    "church3": "church3"
+    "church4": "church"
+    "stagepixel": "stage"
+    "amogus": "mogus"
 }

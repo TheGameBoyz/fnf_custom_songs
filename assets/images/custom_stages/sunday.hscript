@@ -1,0 +1,71 @@
+var speakers;
+var bg;
+function start(song) {
+    bg = new MetroSprite(-240, -150,true);
+    bg.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'bg.png', hscriptPath + 'bg.xml');
+    bg.animation.addByPrefix("idle", "Background", 24, false);
+    bg.animation.addByPrefix("fuck", "bg_with_seizures", 24, false);    
+    bg.animation.play("idle");
+	bg.setGraphicSize(Std.int(bg.width * 1.1));
+	bg.scrollFactor.set(0.9, 0.9);
+	bg.antialiasing = true;
+	bg.updateHitbox();
+	addSprite(bg, BEHIND_ALL);
+    speakers = new MetroSprite(-240, 360,true);
+    speakers.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'bigspeakers.png', hscriptPath + 'bigspeakers.xml');
+    speakers.animation.addByPrefix("idle", "speakers", 24, false);
+    speakers.animation.play("idle");
+	speakers.setGraphicSize(Std.int(speakers.width * 1));
+	speakers.scrollFactor.set(0.9, 0.9);
+	speakers.antialiasing = true;
+	speakers.updateHitbox();
+	addSprite(speakers, BEHIND_ALL);
+    removeSprite(gf);
+    boyfriend.x += 270;
+    dad.x += 100;    
+    boyfriend.y = 490;
+    dad.y = 400;        
+    setDefaultZoom(1.1);
+}
+
+
+function beatHit(beat)
+{
+    speakers.dance(); 
+    bg.dance();     
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+if (step == 64) 
+  bg.animation.play("fuck");
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

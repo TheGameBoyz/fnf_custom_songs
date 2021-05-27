@@ -3,3 +3,4 @@ pixel
 templatePixel
 template
 apple
+gospel

@@ -1,0 +1,46 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+if (curStep >= 319) 
+   dad.altAnim = '-alt';
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

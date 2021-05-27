@@ -1,0 +1,52 @@
+var thotY;
+function start(song) {
+    thotY = dad.y;
+}
+var sussyAngle = 0;
+function update(elapsed) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+sussyAngle += elapsed * 110;
+dad.y = 130 * (FlxMath.fastSin(FlxAngle.asRadians(sussyAngle))) + thotY;
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+    spin.dance(); 
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+    spin.dance(); 
+}

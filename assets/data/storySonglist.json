@@ -2,28 +2,157 @@
   "songs": [
     ["tutorial selected","Tutorial"],
     ["WEEK1 select", "Bopeebo", "Fresh","Dadbattle"],
-    ["week2 select", "Spookeez", "South"],
+    ["week2 select", "Spookeez", "South", "Monster"],
     ["Week 3 press", "Pico", "Philly", "Blammed"],
     ["Week 4 press", "Satin-Panties", "High", "Milf"],
     ["week 5", "Cocoa", "Eggnog", "Winter-Horrorland"],
-    ["Week 6", "Senpai", "Roses", "Thorns"]
+    ["Week 6", "Senpai", "Roses", "Thorns"],
+    ["week7", "Ugh", "Guns", "Stress"]
   ],
   "weekNames": [
-    "",
+    "Learnin' How To Rap",
     "Daddy Dearest",
     "Spooky Month",
     "PICO",
     "MOMMY MUST MURDER",
     "RED SNOW",
-    "hating simulator ft. moawling"
+    "hating simulator ft. moawling",
+    "TANKMAN"
+	"ALWAYS  RUNNIN'"
   ],
   "characters": [
     ["dad", "bf", "gf"],
-		["dad", "bf", "gf"],
-		["spooky", "bf", "gf"],
-		["pico", "bf", "gf"],
-		["mom", "bf", "gf"],
-		["parents-christmas", "bf", "gf"],
-    ["senpai", "bf", "gf"]
-  ]
+    ["dad", "bf", "gf"],
+    ["spooky", "bf", "gf"],
+    ["pico", "bf", "gf"],
+    ["mom", "bf", "gf"],
+    ["parents-christmas", "bf", "gf"],
+    ["senpai", "bf", "gf"],
+    ["tankman", "bf", "gf"]
+  ],
+  "weeks": [
+    {
+      "songs": ["Tutorial"],
+      "name": "Learnin' How To Rap",
+      "animation": "tutorial selected",
+      // bf and gf default to regular values,
+      // but for examples sake i include them here
+      "dad": "dad",
+      "bf": "bf",
+      "gf": "gf"
+    },
+    {
+      "songs": ["Bopeebo", "Fresh", "Dadbattle"],
+      "name": "Daddy Dearest",
+      "animation": "WEEK1 select",
+      "dad": "dad"
+    },
+    {
+      "songs": ["Spookeez", "South", "Monster"],
+      "animation": "week2 select",
+      "name": "Spooky Month",
+      "dad": "spooky"
+    },
+    {
+      "songs": ["Pico", "Philly", "Blammed"],
+      "animation": "Week 3 press",
+      "name": "PICO",
+      "dad": "pico"
+    },
+    {
+      "songs": ["Satin-Panties", "High", "Milf"],
+      "animation": "Week 4 press",
+      "name": "MOMMY MUST MURDER",
+      "dad": "mom"
+    },
+    {
+      "songs": ["Cocoa", "Eggnog", "Winter-Horrorland"],
+      "animation": "week 5",
+      "name": "RED SNOW",
+      "dad": "parents-christmas"
+    },
+    {
+      "songs": ["Senpai", "Roses", "Thorns"],
+      "animation": "Week 6",
+      "name": "hating simulator ft. maowling",
+      "dad": "senpai"
+    },
+    {
+      "songs": ["Ugh", "Guns", "Stress"],
+      "animation": "week7",
+      "name": "TANKMAN",
+      "dad": "tankman"
+    },
+	{
+      "songs": ["headache", "nerves", "release", "fading"],
+      "animation": "WEEK62",
+      "name": "tight bars little man",
+      "dad": "garcello"
+    },
+	
+	{
+      "songs": ["Sugar-Cookie", "Key-Lime", "Stomachache"],
+      "animation": "WEEK62",
+      "name": "Sweet",
+      "dad": "pompom"
+    },
+	
+	{
+      "songs": ["norway", "tordbot"],
+      "animation": "WEEK62",
+      "name": "Eddsworld",
+      "dad": "n"
+    },
+
+
+      {
+      "songs": ["Wife-Forever", "Sky", "Manifest"],
+      "animation": "WEEK62",
+      "name": "Yandere",
+      "dad": "sky"
+    },
+	
+{
+      "songs": ["Eferu-Chan", "Fruity-Reverb-2", "FL-Slayer"],
+      "animation": "WEEK62",
+      "name": "FL Studio",
+      "dad": "flchan"
+    },
+
+	{
+      "songs": ["Light-it-up", "Ruckus", "Target-Practice"],
+      "animation": "WEEK62",
+      "name": "Matt Moment",
+      "dad": "matt"
+    },
+	
+		{
+      "songs": ["Sporting", "Boxing-Match"],
+      "animation": "WEEK62",
+      "name": "he pissed now",
+      "dad": "matt"
+    },
+	
+	
+	{
+      "songs": ["Parish", "Worship", "Alt"],
+      "animation": "week+ select",
+      "name": "that was very unholy of you",
+      "dad": "mid"
+    },
+	
+	{
+      "songs": ["Gospel","Casanova",],
+      "animation": "week+ select",
+      "name": "may god forgive you but i wont",
+      "dad": "mid"
+    },
+	{
+      "songs": ["MD5", "Silica", "RUNNING"],
+      "animation": "tutorial selected",
+      "name": "ALWAYS FUNKIN'",
+      "dad": "dad"
+    },
+  ],
+  "version": 2
 }

@@ -1,0 +1,9 @@
+{
+  "senpaiColor": "0xFFFFFFFF",
+  "senpaiVisible": true,
+  "textColor": "0xFFFFFFFF",
+  "dropColor": "0x00000000",
+  "like": "senpai",
+  "isPixel": true,
+  "font": "undertale.ttf"
+}

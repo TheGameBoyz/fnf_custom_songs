@@ -1,0 +1,69 @@
+
+function start(song) {
+
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+if (curStep >= 512) 
+   dad.altAnim = '-alt';
+}
+
+function stepHit(step)
+{
+if (step == 120){
+    dad.playAnim('oh');    
+}
+if (step == 247){
+    dad.playAnim('oh');    
+}
+if (step == 1142){
+    dad.playAnim('ugh');    
+}
+if (step == 505){
+    dad.playAnim('grr');    
+}
+if (step == 630){
+    dad.playAnim('huh');    
+}
+if (step == 758){
+    dad.playAnim('huh');    
+}
+if (step == 1015){
+    dad.playAnim('grr');    
+}
+if (step == 1079)
+    dad.playAnim('huh');    
+}
+
+function playerTwoTurn()
+{
+    
+}
+
+function playerTwoMiss()
+{
+    
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

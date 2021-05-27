@@ -1,0 +1,62 @@
+function start(song) {
+    bg = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'sky.png', hscriptPath + 'sky.xml');
+    bg.frames = tex;
+    bg.animation.addByPrefix("idle", "bg_sky1", 24, true);
+    bg.animation.play("idle");
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+    front = new FlxSprite(-200, -100);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'bgFront.png', hscriptPath + 'bgFront.xml');
+    front.frames = tex;
+    front.animation.addByPrefix("idle", "bg_normal", 24, true);
+    front.animation.play("idle");
+    front.antialiasing = true;
+    addSprite(front, BEHIND_ALL);
+    setDefaultZoom(1);
+    getHaxeActor("bf").x += 260;
+    getHaxeActor("bf").y -= -80;
+    getHaxeActor("gf").y -= -80;    
+    getHaxeActor("bf").followCamX -= 200;
+    getHaxeActor("dad").x += 40;
+    getHaxeActor("dad").y -= -190;    
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

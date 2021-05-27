@@ -1,0 +1,45 @@
+trace(": )");
+// char is a Character
+function init(char) {
+    trace(": )");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace(": )");
+    char.frames = tex;
+    char.animation.addByPrefix('idle', 'LuciferSarvIdle', 24, false);
+    char.animation.addByPrefix('singUP', 'LuciferSarvUp', 24, false);
+    char.animation.addByPrefix('singLEFT','LuciferSarvLeft', 24, false);
+    char.animation.addByPrefix('singRIGHT', 'LuciferSarvRight', 24, false);
+    char.animation.addByPrefix('singDOWN', 'LuciferSarvDown', 24, false);
+    
+
+    char.addOffset('idle',0);
+    char.addOffset('singUP', 0, 0);
+    char.addOffset('singRIGHT',0, 0);
+    char.addOffset('singLEFT', 0, 0);
+    char.addOffset('singDOWN', 0, 0);
+
+    char.playAnim('idle');
+
+    char.flipX = false;
+
+    char.enemyOffsetX = 0;
+    char.enemyOffsetY = 0;
+    char.playerOffsetX = 0;
+    char.playerOffsetY = 0;
+    char.followCamX = 150;
+    char.followCamY = 0;
+    char.midpointX = 0;
+    char.midpointY = 0;
+}
+var portraitOffset = [0, 0];
+var dadVar = 4.0;
+var isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace(": )");
+    char.playAnim('idle');
+}
+trace("done");

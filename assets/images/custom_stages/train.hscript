@@ -1,0 +1,67 @@
+var bgLimo;
+function start(song) {
+    bg = new FlxSprite(-120,-50).loadGraphic(hscriptPath + 'limoSunset.png');
+    bg.scrollFactor.set(0.1, 0.1);
+    bg.antialiasing = true;
+    addSprite(bg, BEHIND_ALL);
+    bgLimo = new FlxSprite(-2320,-170);
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'bgLimo.png', hscriptPath + 'bgLimo.xml');
+    bgLimo.frames = tex;
+    bgLimo.animation.addByPrefix('idle', 'BG limo', 24, true);
+    bgLimo.animation.play('idle', true);
+    bgLimo.scrollFactor.set(0.9, 0.9);
+    bgLimo.antialiasing = true;
+    addSprite(bgLimo, BEHIND_ALL);
+    limo = new FlxSprite(-600, 550);
+    var limotex = FlxAtlasFrames.fromSparrow(hscriptPath + 'limoDrive.png', hscriptPath  + 'limoDrive.xml');
+    limo.frames = limotex;
+    limo.animation.addByPrefix('drive', 'Limo stage', 24, true);
+    limo.animation.play('drive', false);
+    limo.antialiasing = true;
+    addSprite(limo, BEHIND_DAD | BEHIND_BF);
+    setDefaultZoom(1, -100);
+    getHaxeActor("bf").x += 180;
+    getHaxeActor("bf").y -= 80;
+    getHaxeActor("gf").x -= -70;     
+    getHaxeActor("gf").y -= -170;  
+    getHaxeActor("dad").y -= -70;      
+}
+
+
+function beatHit(beat)
+{
+
+}
+
+function update(elapsed)
+{ 
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+

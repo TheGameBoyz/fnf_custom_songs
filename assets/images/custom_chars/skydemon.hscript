@@ -1,0 +1,45 @@
+trace(": )");
+// char is a Character
+function init(char) {
+    trace(": )");
+    var tex = FlxAtlasFrames.fromSparrow(hscriptPath + 'char.png', hscriptPath + 'char.xml');
+    trace(": )");
+    char.frames = tex;
+    char.animation.addByPrefix('idle', 'sky mad idle', 24, false);
+    char.animation.addByPrefix('singUP', 'sky mad up', 24, false);
+    char.animation.addByPrefix('singLEFT','sky mad left', 24, false);
+    char.animation.addByPrefix('singRIGHT', 'sky mad right', 24, false);
+    char.animation.addByPrefix('singDOWN', 'sky mad down', 24, false);
+    trace("finish anim");
+
+    char.addOffset('idle', 0);   
+    char.addOffset('singUP', 0);
+    char.addOffset('singRIGHT',0);
+    char.addOffset('singLEFT', 0);
+    char.addOffset('singDOWN', 0);
+
+    char.playAnim('idle');
+
+    char.flipX = false;
+
+    char.enemyOffsetX = -160;
+    char.enemyOffsetY = 20;
+    char.playerOffsetX = -1270;
+    char.playerOffsetY = 140;
+    char.followCamX = 259;
+    char.followCamY = 0;
+    char.midpointX = 0;
+    char.midpointY = 0;
+}
+portraitOffset = [0, 0];
+dadVar = 6.1;
+isPixel = false;
+function update(elapsed, char) {
+    // do nothing...
+}
+var danced = false;
+function dance(char) {
+    trace(": )");
+    char.playAnim('idle');
+}
+trace("done");

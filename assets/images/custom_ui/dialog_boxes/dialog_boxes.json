@@ -7,5 +7,17 @@
   },
   "templateMad": {
     "like": "senpai-angry"
+  },
+  "templateDialog": {
+    "like": "dialog"
+  },
+  "templateDialogAngry": {
+    "like": "dialog-angry"
+  },
+  "nonee": {
+    "like": "dialog"
+  },
+  "newdia": {
+    "like": "newdia"
   }
 }

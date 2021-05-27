@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spin.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spinny0000" x="0" y="0" width="720" height="734" pivotX="71.95" pivotY="73.35" frameX="-71" frameY="-73" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0001" x="720" y="0" width="733" height="747" frameX="-65" frameY="-67" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0002" x="1453" y="0" width="747" height="761" frameX="-58" frameY="-60" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0003" x="2200" y="0" width="759" height="774" frameX="-52" frameY="-54" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0004" x="2959" y="0" width="773" height="787" frameX="-45" frameY="-47" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0005" x="3732" y="0" width="785" height="801" frameX="-39" frameY="-40" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0006" x="4517" y="0" width="799" height="815" frameX="-32" frameY="-33" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0007" x="5316" y="0" width="811" height="827" frameX="-26" frameY="-27" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0008" x="6127" y="0" width="825" height="841" frameX="-19" frameY="-20" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0009" x="6952" y="0" width="837" height="855" frameX="-13" frameY="-13" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0010" x="0" y="855" width="851" height="867" frameX="-6" frameY="-7" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0011" x="851" y="855" width="864" height="881"/>
+	<SubTexture name="spinny0012" x="1715" y="855" width="853" height="869" frameX="-5" frameY="-6" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0013" x="2568" y="855" width="841" height="859" frameX="-11" frameY="-11" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0014" x="3409" y="855" width="831" height="847" frameX="-16" frameY="-17" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0015" x="4240" y="855" width="819" height="835" frameX="-22" frameY="-23" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0016" x="5059" y="855" width="809" height="825" frameX="-27" frameY="-28" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0017" x="5868" y="855" width="797" height="813" frameX="-33" frameY="-34" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0018" x="6665" y="855" width="787" height="801" frameX="-38" frameY="-40" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0019" x="0" y="1736" width="775" height="791" frameX="-44" frameY="-45" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0020" x="775" y="1736" width="765" height="779" frameX="-49" frameY="-51" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0021" x="1540" y="1736" width="753" height="768" frameX="-55" frameY="-57" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0022" x="2293" y="1736" width="743" height="757" frameX="-60" frameY="-62" frameWidth="864" frameHeight="881"/>
+	<SubTexture name="spinny0023" x="3036" y="1736" width="731" height="745" frameX="-66" frameY="-68" frameWidth="864" frameHeight="881"/>
+</TextureAtlas>
